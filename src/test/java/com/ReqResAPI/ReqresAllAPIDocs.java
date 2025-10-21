@@ -1,4 +1,4 @@
-package ReqResAPI;
+package com.ReqResAPI;
 
 
 import io.restassured.RestAssured;

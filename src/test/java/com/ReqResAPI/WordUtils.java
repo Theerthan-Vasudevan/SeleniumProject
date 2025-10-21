@@ -1,4 +1,4 @@
-package ReqResAPI;
+package com.ReqResAPI;
 
 import org.apache.poi.xwpf.usermodel.*;
 
