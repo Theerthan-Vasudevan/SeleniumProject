@@ -3,6 +3,7 @@ package com.BMICalculator.BMICalculator.StepDefinition;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+
 import io.cucumber.java.en.*;
 
 public class BMICalculatorSteps {
@@ -10,7 +11,7 @@ public class BMICalculatorSteps {
 
     @Given("the user launches the Chrome browser")
     public void the_user_launches_the_chrome_browser() {
-        driver = new ChromeDriver();
+        driver = (WebDriver) new ChromeDriver();
         driver.manage().window().maximize();
     }
 
